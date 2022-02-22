@@ -70,8 +70,6 @@ Were you able to achieve the target model performance?
 - No, the model achieved 74.0% accuracy.
 
 ## Summary
-overall results of deep learning model
-- Despite several attempts to optimize the model, it was not able to achieve the target model performance of 75%. The accuracy scores achieved were between 73.8% and 74.2%.
+Despite several attempts to optimize the model, it was not able to achieve the target model performance of 75%. The accuracy scores achieved were between 73.8% and 74.2%. The model that acheived the highest accuracy had a third hidden layer with 10 neurons, a relu activation function for the hidden layers, and a sigmoid activiation function for the output layer.
 
-recommendation for how a different model could solve this classification problem, and explain
-
+For future analysis, it is recommended that the Random Forest Classifer be used to solve this classification problem. This supervised machine learning model is capable of combining many decision trees to generate a classified output, having a faster performance, and avoiding overfitting the data.
